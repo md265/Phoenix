@@ -5,8 +5,12 @@ wywołania. */
 /// @param base
 /// @param mask
 /// @return
-int del(const unsigned int base, const char mask) {
-  int result = 0;
+int del(const unsigned long int base, const char mask) {
+  int result = -1;
 
-  return 0;
+  if ((MAX_MASK >= mask) && (0 <= mask) && (0UL < base) && (MAX_IP >= base)) {
+    result = 0;
+  }
+
+  return result;
 }
