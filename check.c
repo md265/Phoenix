@@ -1,7 +1,11 @@
-/* Sprawdzenie czy adres ip zawiera się w zbiorze prefiksów. Zwraca maskę
-   najmniejszego prefiksu (o największej wartości maski) w zbiorze, który
-   zawiera wskazany adres.
-   Jeżeli ip nie zawiera się w zbiorze prefiksów zwraca -1. */
+/*!
+ *  \brief     Check prefix function.
+ *  \author    Maciej Domosud
+ *  \details   Sprawdzenie czy adres ip zawiera się w zbiorze prefiksów. Zwraca
+ *             maskę najmniejszego prefiksu (o największej wartości maski) w
+ *             zbiorze, który zawiera wskazany adres. Jeżeli ip nie zawiera się
+ *             w zbiorze prefiksów zwraca -1.
+ */
 
 /// @brief Subnet masks related to the CIDR values. Array index is shifted by 1
 /// - i.e. table index 15 corresponds to mask "/16".

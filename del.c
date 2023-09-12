@@ -1,5 +1,9 @@
-/* Usunięcie prefiksu ze zbioru. Zwraca 0 lub -1 dla błędnych argumentów
-wywołania. */
+/*!
+ *  \brief     Delete prefix function.
+ *  \author    Maciej Domosud
+ *  \details   Usunięcie prefiksu ze zbioru. Zwraca 0 lub -1 dla błędnych
+ *             argumentów wywołania.
+ */
 
 /// @brief Removing the prefix from the database.
 /// @param base - value of the IP address to delete in range of 1 to MAX_IP.

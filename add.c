@@ -1,7 +1,12 @@
 
 
-/* Dodanie prefiksu do zbioru.
-   Zwraca 0 lub -1 dla błędnych argumentów wywołania. */
+/*!
+ *  \brief     Add prefix function.
+ *  \author    Maciej Domosud
+ *  \details   Dodanie prefiksu do zbioru. Zwraca 0 lub -1 dla błędnych
+ *             argumentów wywołania.
+ */
+
 /// @brief Adding new prefix to the database.
 /// @param base - value of the IP address to store in range of 1 to MAX_IP.
 /// @param mask - value of the IP subnet mask (CIDR) to store in range of 1 to

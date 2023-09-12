@@ -1,4 +1,11 @@
 
+/*!
+ *  \brief     Main program file
+ *  \author    Maciej Domosud
+ *  \details   File contains prefix table initialization and examples of how to
+ *             use the functions.
+ */
+
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
