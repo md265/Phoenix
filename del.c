@@ -50,8 +50,6 @@ int del(const unsigned long int base, const char mask) {
       /* Found node has two children */
       else {
         node_t* parent_node = NULL;
-
-        // Compute the inorder successor
         node_t* temporary_node_ptr = current_node_ptr->right_child;
 
         while (NULL != temporary_node_ptr->left_child) {
