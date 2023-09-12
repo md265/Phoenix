@@ -1,3 +1,12 @@
+To build program just compile main.c and run.
+
+For example:
+
+    gcc -o main main.c
+    ./main
+
+---
+
 Zadanie brzmi następująco:
  
 Proszę napisać implementację w języku C służącą do zarządzania zbiorem prefiksów IPv4.
