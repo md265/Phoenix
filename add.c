@@ -46,7 +46,7 @@ int add(const unsigned long int base, const char mask) {
           current_node_ptr->right_child = new_node_ptr;
           result = 0;
         } else {
-          /* Duplicated value */
+          free(new_node_ptr); /* Duplicated value */
         }
       }
 
