@@ -1,8 +1,7 @@
 /*!
  *  \brief     Delete prefix function.
  *  \author    Maciej Domosud
- *  \details   Usunięcie prefiksu ze zbioru. Zwraca 0 lub -1 dla błędnych
- *             argumentów wywołania.
+ *  \details
  */
 
 /// @brief Removing the prefix from the database.

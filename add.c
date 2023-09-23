@@ -3,8 +3,7 @@
 /*!
  *  \brief     Add prefix function.
  *  \author    Maciej Domosud
- *  \details   Dodanie prefiksu do zbioru. Zwraca 0 lub -1 dla błędnych
- *             argumentów wywołania.
+ *  \details
  */
 
 /// @brief Adding new prefix to the database.
